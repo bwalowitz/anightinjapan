@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: bwalowitz@gmail.com
 description: A blog about japan.
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: brandonwalowitz
 github_username: bwalowitz
 markdown: kramdown
