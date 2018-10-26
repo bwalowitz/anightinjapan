@@ -1,0 +1,31 @@
+---
+title: A Night In Japan
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+email: bwalowitz@gmail.com
+description: A blog about japan.
+baseurl: 
+url: 
+twitter_username: brandonwalowitz
+github_username: bwalowitz
+markdown: kramdown
+theme: minima
+plugins:
+- jekyll-feed
